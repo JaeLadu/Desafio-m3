@@ -1,0 +1,46 @@
+body {
+   margin: 0;
+}
+.welcome {
+   background-image: url(./elements/puntitos.svg);
+   height: fit-content;
+}
+.header {
+   padding: 18px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo {
+   height: 50px;
+}
+.burger {
+   height: 36px;
+   width: 36px;
+}
+.burger-insides {
+   height: 6px;
+   margin-bottom: 6px;
+   background-color: black;
+}
+.welcome-container {
+   padding: 0 30px;
+   /* display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center; */
+}
+.welcome-title {
+   font-family: "Open sans";
+   font-size: 48px;
+   text-align: center;
+   margin: 1.5em 0;
+}
+.welcome-selfie {
+   width: 100%;
+   display: block;
+}
+.who-i-am {
+   background-color: black;
+   height: 100vh;
+}
