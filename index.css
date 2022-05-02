@@ -1,6 +1,7 @@
 body {
    margin: 0;
 }
+/* -----------------------------------------------------------Welcome Section--------------------------------------------------------------------------------- */
 .welcome {
    background-image: url(./elements/puntitos.svg);
    height: fit-content;
@@ -25,10 +26,6 @@ body {
 }
 .welcome-container {
    padding: 0 30px;
-   /* display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center; */
 }
 .welcome-title {
    font-family: "Open sans";
@@ -40,7 +37,75 @@ body {
    width: 100%;
    display: block;
 }
-.who-i-am {
-   background-color: black;
-   height: 100vh;
+/* -----------------------------------------------------------About me Section--------------------------------------------------------------------------------- */
+.about-me {
+   background-color: #141414;
+   padding: 30px;
+   color: #fafafa;
+   min-height: 60vmax;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: space-between; */
+}
+.about-title {
+   margin: 40px auto;
+   font-family: "Open sans";
+   font-size: 32px;
+}
+.self-description {
+   font-size: 16px;
+   font-family: "Roboto", sans-serif;
+}
+.check {
+   margin: 40px auto;
+}
+/* -----------------------------------------------------------Services Section--------------------------------------------------------------------------------- */
+.services {
+   padding: 0px 50px;
+   text-align: center;
+}
+.service-container {
+   margin-bottom: 120px;
+}
+.services-section-title {
+   margin: 50px 0;
+   font-family: "Open sans";
+   font-size: 32px;
+}
+.service-description {
+   font-size: 16px;
+   font-family: "Roboto", sans-serif;
+}
+/* -----------------------------------------------------------Contact Section--------------------------------------------------------------------------------- */
+.contact {
+   background-color: #141414;
+   color: white;
+   padding: 70px 20px;
+   text-align: center;
+}
+.form {
+   text-align: start;
+}
+.contact-title {
+   font-family: "Open sans";
+   font-size: 32px;
+   margin: 0px auto 35px;
+}
+.input-area {
+   display: block;
+   width: 100%;
+   min-height: 45px;
+   margin-top: 10px;
+   margin-bottom: 25px;
+}
+.input-text {
+   font-size: 13px;
+   font-family: "Roboto", sans-serif;
+}
+.Boton {
+   background-color: #ffd953;
+   width: 100%;
+   height: 45px;
+   margin: 70px auto 0;
 }
